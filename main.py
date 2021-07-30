@@ -30,7 +30,7 @@ while run:
         print("\nThe sum is "+totalsum)
 
     #asking user to quit
-    quit_=input("\nDo you want to quit? [Y/N]")
+    quit_=input("\nDo you want to quit? [Y/N]: ")
     quit_=quit_.lower()#converting quit_ to lower case
 
     #quiting the program if the user inputs "y" or "yes"
